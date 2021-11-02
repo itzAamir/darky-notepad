@@ -1,0 +1,23 @@
+body {
+   height: 95vh;
+   width: 95vw;
+}
+
+.container {
+   position: relative;
+   height: 100%;
+   width: 100%;
+}
+
+.btn-wrapper {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 40%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.btn-wrapper button {
+   font-size: 1.2rem;
+}

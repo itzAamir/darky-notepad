@@ -1,0 +1,30 @@
+{
+  "name": "notepad-darky",
+  "productName": "notepad-darky",
+  "version": "1.0.0",
+  "description": "notepad with dark mode",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-installer": "electron-builder"
+  },
+  "build": {
+    "appId": "notepad-darky",
+    "win": {
+      "target": ["nsis"]
+    },
+    "nsis": {
+      "uninstallDisplayName": "notepad-darky",
+      "license": "license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true 
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "electron-builder": "^22.10.5"
+  }
+}

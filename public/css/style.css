@@ -1,0 +1,23 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   height: 100vh;
+   width: 100vw;
+   overflow: hidden;
+   background-color: #212121;
+}
+
+textarea {
+   background-color: #212121;
+   color: white;
+   min-height: 100%;
+   min-width: 99%;
+   border: none;
+   resize: none;
+   outline: none;
+   font-size: 1.5rem;
+   padding: 6px;
+}
